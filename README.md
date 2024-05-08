@@ -19,8 +19,7 @@ sklearn to demonstrate Information Retrieval using the Vector Space Model.
 5. Execute a sample query and display the search results along with similarity scores.
 
 ## PROGRAM:
-
-```python
+```
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from nltk.tokenize import word_tokenize
@@ -87,8 +86,6 @@ print("The high rank cosine score is",x)
 ```
 ## OUTPUT:
 ![image](https://github.com/kaviya2839/WDM_EXP6/assets/120553351/cd9d8f98-42f6-42fe-983a-8b6b1b813afe)
-
-
 
 ## RESULT:
 Thus, Information Retrieval Using Vector Space Model in Python is successfullly implemented.
